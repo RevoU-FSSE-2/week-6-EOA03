@@ -45,7 +45,7 @@ Before we start making the simple node.js, you need to prepare some things.
    ```
 4. Create a new file named ```Dockerfile``` that contains:
    * ```FROM``` : define from what image we want to build from.
-   * ```WOrkDIR``` : a directory to hold the application code inside the image.
+   * ```WORKDIR``` : a directory to hold the application code inside the image.
    * ```COPY``` : copy files from the directory.
    * ```RUN``` : execute commands to build image.
    * ```EXPOSE``` : ports where the container will listen.
